@@ -17,6 +17,7 @@ vim.opt.rtp:prepend(lazypath)
 require("vim-options")
 require("lazy").setup("plugins")
 
+--vim.cmd.colorscheme "koehler"
 --require("catppuccin").setup()
---vim.cmd.colorscheme "slate"
-vim.cmd.colorscheme "torte"
+vim.cmd.colorscheme "slate"
+--vim.cmd.colorscheme "torte"
